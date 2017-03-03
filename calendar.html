@@ -3,32 +3,56 @@
 <head>
 	<title>Calendar</title>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="reset.css">
 	<link rel="stylesheet" type="text/css" href="calendar.css">
+	<link rel="stylesheet" type="text/css" href="media.css">
 	<link href="https://fonts.googleapis.com/css?family=Arvo|Sansita" rel="stylesheet">
 </head>
 <body>
 	<header>
-		<div class="menu topElement">&#9776;</div>
-		<!-- <div class="select topElement">
-			<div class="month">Jan</div>
-			<div class="month">Feb</div>
-			<div class="month">Mar</div>
-		</div> -->
-		<div class="sets topElement">. . .</div>
+		<div class="menu topElement">
+			<ul class="main-menu">
+				<li>&#9776;
+					<ul class="period">
+						<li><a href="#">Year</a></li>
+						<li><a href="#">Month</a></li>
+						<li><a href="#">Week</a></li>
+						<li><a href="#">Day</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div class="select">
+			<select>
+				<option>Jan</option>
+				<option>Feb</option>
+				<option>Mar</option>
+				<option>Apr</option>
+				<option>May</option>
+				<option>Jun</option>
+				<option>Jul</option>
+				<option>Aug</option>
+				<option>Sep</option>
+				<option>Oct</option>
+				<option>Nov</option>
+				<option>Dec</option>
+			</select>	
+		</div>
+		<div class="sets topElement">&#8230;</div>
 	</header>
 	<div class="calendar">
 		<div class="hours">
-			<div class="am9 time">9 AM</div>
-			<div class="am10 time">10 AM</div>
-			<div class="am11 time">11 AM</div>
-			<div class="am12 time">12 AM</div>
-			<div class="pm1 time">1 PM</div>
-			<div class="pm2 time">2 PM</div>
-			<div class="pm3 time">3 PM</div>
-			<div class="pm4 time">4 PM</div>
-			<div class="pm5 time">5 PM</div>
-			<div class="pm6 time">6 PM</div>
+			<div class="am9 time">9 am</div>
+			<div class="am10 time">10 am</div>
+			<div class="am11 time">11 am</div>
+			<div class="am12 time">12 am</div>
+			<div class="pm1 time">1 pm</div>
+			<div class="pm2 time">2 pm</div>
+			<div class="pm3 time">3 pm</div>
+			<div class="pm4 time">4 pm</div>
+			<div class="pm5 time">5 pm</div>
+			<div class="pm6 time">6 pm</div>
 		</div>
 		<div class="days mo" id="monday">
 			<div class="dayOfWeek">
