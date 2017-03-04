@@ -36,6 +36,7 @@ select {
 	background: transparent;
 	border: none;
 	float: left;
+	outline: none;
 }
 .sets {
 	float: right;
@@ -176,4 +177,12 @@ button {
 	background-color: #dd4400;
 	border-radius: 25px;
 	border: none;
+	outline: none;
+	transition: width .1s linear;
+	transition: height .1s linear;
+}
+button:active {
+	background-color: #774422;
+	width: 48px;
+	height: 48px;
 }
